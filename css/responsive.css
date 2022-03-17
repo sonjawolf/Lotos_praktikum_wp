@@ -1,0 +1,348 @@
+@media screen and (max-width: 1200px){
+	
+	h3{
+		font-size:135%;
+	}
+	p{
+		font-size:125%;
+	}
+	header{
+		position:fixed;
+		
+	}
+	
+	.cetvrtina{
+		float:left;
+		width:50%;
+	}
+	
+	#content{
+		width:80%;
+		float:none;
+		margin:0px auto;
+	}
+	.galerija{
+		width:100%;
+		height:100%;
+	}
+	.wrapp{
+		width:100%;
+	}
+	#gornjaNav ul{
+		/*width:87%;*/
+		text-align:center;
+	}
+}
+
+
+
+
+@media screen and (max-width: 800px){
+	body{
+		width:100%
+	}
+	h3{
+		font-size:125%;
+	}
+	p{
+		font-size:120%;
+	}
+	header{
+		position:fixed;
+		
+	}
+
+	
+
+		.wrapp{
+		width:100%;
+	}
+		
+	
+	#gornjaNavigacija{
+		position:fixed;
+		margin-top:2px;
+	}
+	
+	#menu-icon{
+		color:#000;
+		width: 0px;
+        height: 30px;
+        background: #ffe6e6 url(../images/menu-icon.png) no-repeat center ;
+		padding-left:110px;
+        cursor: pointer;
+        border-radius: 10px;
+        display: block;
+		
+		border:1px solid #ffe6e6;
+		border-radius:5px;
+	}
+	#menu-icon:hover{
+		background-color:#ffb3b3;
+		
+	}
+	#menu-icon.active{
+		
+		background-color:#ffe6e6;
+		border:1px solid #ffe6e6;
+		border-radius:5px;
+	}
+	#gonjaNav{
+		clear:both;
+		position:absolute;
+		top: 38px;
+        width: 190px;
+        border-radius: 10px;
+        z-index: 10000;
+        padding: 5px;
+        background: #ffe6e6;
+        border: solid 1px #ffb3b3;
+        display: none;
+	}
+	#gornjaNav li{
+		clear:both;
+		float:none;
+		margin:5px 0 5px 10px;
+	}
+	#gonjaNav .active{
+		
+		background:none;
+		color:#fff;
+	}
+	#gonjaNav a,
+	#gonjaNav ul a{
+		float:inherit;
+		background:none;
+		display:inline;
+		padding:0;
+		color:#666;
+		border:none;
+		margin:2px;
+	}
+	#gornjaNav a:hover, #gonjaNav ul a:hover{
+		background:#ffb3b3;
+		color:#6B6B47;
+		border-radius:5px;
+		padding:5px;
+		margin:2px;
+	}
+	#gornjaNav ul{
+		width:auto;
+		position:static;
+		display:block;
+		border:none;
+		background:inherit;
+	}
+	#gornjaNav ul li{
+		margin:3px 0 3px 15px;
+	}
+	
+  #logo{
+		float:right;
+		height:20%;
+		width:20%;
+		visibility:visible;
+		
+	}
+ 
+   
+	
+	
+	.banner{
+		padding-top:86px;
+	}
+	
+	.cetvrtina{
+		float:left;
+		width:100%;
+	}
+	article{
+		width:100%;
+		
+		
+	}
+	aside{
+		width:100%;
+	}
+	aside p{
+		font-size:80%;
+	}
+	
+
+}
+	
+}
+@media screen and (max-width: 600px){
+	
+	h3{
+		font-size:100%;
+	}
+	p{
+		font-size:90%;
+	}
+	header{
+		position:fixed;
+		
+	}
+
+		
+		
+	#logo{
+		float:right;
+		height:20%;
+		width:20%;
+		visibility:visible;
+		
+	}
+	.wrapp{
+		width:100%;
+	}
+	
+	#gornjaNavigacija{
+		position:relative;
+	}
+	
+	#menu-icon{
+		color:#000;
+		width: 0px;
+        height: 30px;
+        background: #ffe6e6 url(../slike/menu-icon.png) no-repeat center ;
+		padding-left:110px;
+        cursor: pointer;
+        border-radius: 10px;
+        display: block;
+		margin-left:15px;
+		border:1px solid #ffe6e6;
+		border-radius:5px;
+	}
+	#menu-icon:hover{
+		background-color:#ffb3b3;
+		
+	}
+	#menu-icon.active{
+		background-color:#ffe6e6;
+		border:1px solid #ffe6e6;
+		border-radius:5px;
+	}
+	#gonjaNav{
+		clear:both;
+		position:absolute;
+		top: 38px;
+        width: 190px;
+        border-radius: 10px;
+        z-index: 10000;
+        padding: 5px;
+        background: #ffe6e6;
+        border: solid 1px #ffb3b3;
+        display: none;
+	}
+	#gornjaNav li{
+		clear:both;
+		float:none;
+		margin:5px 0 5px 10px;
+	}
+	#gonjaNav .active{
+		background:none;
+		color:#fff;
+	}
+	#gonjaNav a,
+	#gonjaNav ul a{
+		float:inherit;
+		background:none;
+		display:inline;
+		padding:0;
+		color:#666;
+		border:none;
+		margin:2px;
+	}
+	#gornjaNav a:hover, #gonjaNav ul a:hover{
+		background:#ffb3b3;
+		color:#000;
+		border-radius:5px;
+		padding:5px;
+		margin:2px;
+	}
+	#gornjaNav ul{
+		width:auto;
+		position:static;
+		display:block;
+		border:none;
+		background:inherit;
+	}
+	#gornjaNav ul li{
+		margin:3px 0 3px 15px;
+	}
+	
+	.banner{
+		padding-top:86px;
+	}
+	
+	.cetvrtina{
+		float:left;
+		width:100%;
+	}
+	article{
+		width:100%;
+		
+		
+	}
+	aside{
+		width:100%;
+	}
+
+	
+}
+@media screen and (max-width: 400px) {
+	
+	h3{
+		font-size:90%;
+	}
+	p{
+		font-size:80%;
+	}
+	header{
+		position:fixed;
+		
+	}
+
+	
+	
+	#logo{
+		float:right;
+		height:20%;
+		width:20%;
+		visibility:visible;
+		
+	}
+	.wrapp{
+		width:100%;
+	}
+	 #gornjaNavigacija{
+		position:fixed;
+		margin-top:2px;
+	}
+	#map
+	{
+		width:50%;
+        padding-left: 100px;
+    }
+	
+	.banner{
+		padding-top:86px;
+	}
+	
+	.cetvrtina{
+		float:left;
+		width:100%;
+	}
+	article{
+		width:100%;
+		
+		
+	}
+	aside{
+		width:100%;
+	}
+
+	
+}

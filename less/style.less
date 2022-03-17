@@ -1,0 +1,430 @@
+@textBoja: #999966;
+@crna: #000;
+@zaBody: #ffe6e6;
+@aktivni: #ffe6f6;
+@siva: #343434;
+@font: 'PT Serif Caption', serif;
+@backgroundBoja: #ffcccc;
+@backgroundRoza: #FF9A9A;
+@backgroundRoza1: #ffb3b3;
+
+/* first level */
+/* second level */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background: @backgroundBoja;
+	color: @textBoja;
+	font-family: @font;
+	margin: 0;
+}
+h3 {
+	font-size: 175%;
+	inline-height: 155%;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 5% 0;
+}
+p {
+	font-family: @font;
+	color: @crna;
+	font-size: 100%;
+	line-height: 100%;
+	padding: 2%;
+	color: @textBoja;
+	text-indent: 2%;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	margin-bottom: -4%;
+}
+header {
+	top: 0;
+	background-color: @backgroundBoja;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	z-index: 1000;
+	border-bottom: 5px solid #999966;
+}
+#header-inner {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#logo {
+	margin: 20px;
+	float: left;
+	height: 60px;
+	width: 110px;
+	img {
+		height: 50px;
+		width: 100px;
+	}
+}
+nav {
+	text-transform: uppercase;
+	float: right;
+	padding: 25px 20px 0 0;
+}
+ul {
+	list-style-type: none;
+}
+#nav {
+	padding: 5px 0 0 0;
+	float: right;
+	display: block;
+	z-index: 99;
+	>a {
+		display: none;
+	}
+	li {
+		position: relative;
+		ul {
+			font-size: 100%;
+			padding-top: 15px;
+			text-transform: lowercase;
+			display: none;
+			position: absolute;
+			width: 200px;
+			li {
+				margin-top: 15px;
+				margin-left: 5px;
+			}
+		}
+		&:hover {
+			ul {
+				display: block;
+			}
+		}
+	}
+	>ul {
+		height: 3.75em;
+		>li {
+			text-transform: uppercase;
+			padding: 10px;
+			height: 100%;
+			float: left;
+		}
+	}
+	ul {
+		li {
+			a {
+				color: @textBoja;
+				text-decoration: none;
+				padding: 5px;
+				background-color: @backgroundRoza;
+				border-radius: 3px;
+				&:hover {
+					color: @zaBody;
+					background-color: @textBoja;
+				}
+			}
+		}
+	}
+}
+.btn {
+	display: inline-block;
+	border-radius: 5px;
+	color: @aktivni;
+	padding: 8px 16px;
+	background: @textBoja;
+	&:hover {
+		background: @textBoja;
+	}
+}
+.cetvrtina {
+	a {
+		text-decoration: none;
+	}
+	margin-top: 4%;
+	padding: 5% 0 5% 0;
+	width: 25%;
+	height: auto;
+	float: left;
+	text-align: center;
+	background-color: @zaBody;
+	h3 {
+		padding-top: 10%;
+		a {
+			text-decoration: none;
+			color: @textBoja;
+		}
+	}
+	img {
+		height: auto;
+		width: auto;
+		border: 5px solid #999966;
+		border-radius: 5px;
+	}
+}
+.slider {
+	margin-top: 90px;
+}
+.slider1 {
+	img {
+		width: 400px;
+		height: 250px;
+	}
+}
+.slide-wrap {
+	background-color: @backgroundBoja;
+}
+.bx-controls {
+	display: none;
+}
+.inner-wrapper {
+	margin-top: 2%;
+	background-color: @zaBody;
+	float: left;
+	width: 100%;
+	height: auto;
+	border: 1px solid #999966;
+}
+article {
+	float: left;
+	margin: 0 auto;
+	width: 50%;
+	img {
+		width: 100%;
+		height: 100%;
+		margin: auto;
+	}
+}
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+	background-color: @zaBody;
+	h2 {
+		text-align: center;
+	}
+	p {
+		font-size: 130%;
+	}
+}
+.inner-wrapper1 {
+	margin-top: 87px;
+}
+.strana {
+	padding: 5%;
+	margin: 10%;
+	background-color: @backgroundRoza1;
+	p {
+		margin: 5%;
+		background-color: @backgroundBoja;
+		color: @textBoja;
+		font-size: 95%;
+	}
+	h3 {
+		a {
+			text-decoration: none;
+			color: @textBoja;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
+.padd-1 {
+	padding-top: 11px;
+	text-align: center;
+	h2 {
+		font-size: 170%;
+	}
+}
+.list-teachers {
+	padding-left: 10px;
+	text-align: justify;
+	margin-right: 50px;
+	li {
+		padding-bottom: 25px;
+		figure {
+			float: left;
+			margin-right: 30px;
+		}
+	}
+}
+.overflow {
+	overflow: hidden;
+	p {
+		font-size: 100%;
+		padding-top: 9%;
+	}
+}
+.box-img {
+	padding: 7px;
+	background: @textBoja;
+	border-radius: 13px;
+	display: inline-block;
+	text-align: center;
+	img {
+		width: 110px;
+		height: 110px;
+		border-radius: 5px;
+		text-align: center;
+	}
+}
+.kifoza {
+	img {
+		height: 250px;
+		width: 300px;
+	}
+}
+.vez {
+	img {
+		height: 130px;
+		width: 170px;
+	}
+}
+.autor {
+	img {
+		height: 190px;
+		width: 190px;
+	}
+}
+.strana1 {
+	background-color: @backgroundBoja;
+	margin: 15%;
+	padding-left: 15%;
+}
+.stavke {
+	margin: 50px;
+	text-align: justify;
+	li {
+		margin-left: 20px;
+		list-style-type: square;
+	}
+	p {
+		text-align: justify;
+		font-size: 100%;
+	}
+}
+.stavke1 {
+	margin: 15%;
+}
+.list-1 {
+	padding: 6px 0 23px;
+	li {
+		background: url(../images/marker-1.png) no-repeat 7px 10px;
+		padding: 0 0 0 20px;
+		display: block;
+		line-height: 24px;
+		a {
+			text-decoration: none;
+			display: inline-block;
+			-webkit-transition: all 0.2s ease;
+			-moz-transition: all 0.2s ease;
+			-o-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			color: @textBoja;
+			&:hover {
+				color: @siva;
+			}
+		}
+	}
+}
+#kinezi {
+	background-color: @backgroundRoza1;
+}
+footer {
+	max-height: 86px;
+	background-color: @backgroundBoja;
+	width: 100%;
+}
+.clear {
+	clear: both;
+}
+.social {
+	list-style-type: none;
+	text-align: center;
+	li {
+		display: inline;
+		a {
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+.second {
+	max-height: 55px;
+	padding-top: 3%;
+	a {
+		text-decoration: none;
+		color: @textBoja;
+	}
+	p {
+		padding: 20px 0 20px 0;
+		text-align: center;
+	}
+}
+.main {
+	margin: 86px auto 0 auto;
+	position: relative;
+	width: auto;
+	background-color: @zaBody;
+	text-align: center;
+	padding: 2%;
+}
+.wrapp {
+	max-width: 1200px;
+}
+.galerija {
+	width: 29%;
+	float: left;
+	margin: 2%;
+	img {
+		max-width: 100%;
+		display: block;
+		height: auto;
+		width: auto;
+		margin: 3px;
+		border: 3px solid #999966;
+		border-radius: 10px;
+	}
+}
+#gornjaNav {
+	margin: 0px auto;
+	width: auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	ul {
+		position: absolute;
+		display: none;
+		width: 200px;
+		a {
+			display: block;
+		}
+		li {
+			float: none;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	li {
+		list-style: none;
+		float: left;
+		margin-left: 2px;
+		padding: 10px 15px 10px 15px;
+		border-radius: 6px;
+		background-color: @backgroundRoza;
+		&:hover {
+			>ul {
+				display: block;
+			}
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		color: @textBoja;
+	}
+}

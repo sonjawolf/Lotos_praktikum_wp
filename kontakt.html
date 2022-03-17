@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOTOS | Kontakt</title>
+<meta name="description" content="Studio za negu tela LOTOS"/>
+<meta name="keywords" content="masaza, kavitacija, kifoza, skleroza, kineziterapija, fizikalna"/>
+<meta name="author" content="sonja.damjanovic.111.14@ict.edu.rs"/>
+<link rel="stylesheet" type="text/css" href="css/stil.css"/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+<link rel="icon" href="images/logo1.png" type="image/x-icon">
+<link rel="shortcut icon" href="images/logo1.png" type="image/x-icon">
+<link href="http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet/less" type="text/css" href="less/style.less"/>
+		<script src="less/less.js" type="text/javascript"></script>	
+<link href="js/jquery.bxslider.css" rel="stylesheet" />
+<link href="js/jquery-ui.css" rel="stylesheet" />
+<script src="js/jquery-3.1.1.js" ></script>
+<script src="js/jquery-ui.min.js" ></script>
+<script src="js/jquery.js" type="text/javascript"></script>
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+		
+		
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxy3XRGng8m0GyPHsl6rxtax02-ZxfNQQ&callback=initMap"
+  type="text/javascript"></script>
+
+</head>
+<body>
+<header>
+	<div id="header-inner">
+		<a href="index.html" id="logo"><img src="images/logo1.png" alt="masaza"></a>
+		
+		
+		<nav id="gornjaNavigacija">
+				<ul id="gornjaNav">
+		<li class="active"><a href="index.html">Početna</a></li>
+	 
+        <li>
+            <a href="usluga.html">Usluge</a>
+      
+        </li>
+		
+        <li><a href="vezbe.html">Vežbe</a>
+           
+          </li>
+       <li><a href="galerija.html">Galerija</a> </li>
+          <li><a href="kontakt.html">Kontakt</a> </li>
+          
+          
+	</ul>
+	
+
+	
+	
+	</nav>
+</div>
+</header>
+
+<div class="clear"></div>
+<section class="inner-wrapper1">
+	<article id="onama">
+	<div class="strana">
+	 <h3>Informacije</h3>
+    <div class="box-address">
+      <h4>Studio za negu tela LOTOS</h4>
+      <dl class="address">
+        <dt>Dalmatinska 66<br>
+          11000 Beograd</dt>
+        <dd> <span>Telefon</span> 011/3233-323</dd>
+        <dd> <span>Mobilni</span> 063/3233-323</dd>
+       
+        <dd> E-mail: <a class="mail-1" href="#">info@lotos.com</a> </dd>
+      </dl>
+    </div>
+	</div>
+	</article>
+	<aside id="onama">
+		 <div class="padd-1">
+          
+		 <div id="map">			
+				<div id="lat">
+				</div>
+				<div id="long">				
+				</div>
+				<script type='text/javascript'>
+				
+					x = navigator.geolocation;
+					
+					x.getCurrentPosition(succes, failure);
+					
+					function succes(position){
+											
+						var coords = new google.maps.LatLng(44.8097207,20.479209);
+						
+						var mapOptions = {
+							zoom:16,
+							center:coords,
+							mapTypeId:google.maps.MapTypeId.ROADMAP
+						}
+						
+						var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+						 
+						
+						var marker = new google.maps.Marker({map:map, position:coords});
+						
+						var infowindow = new google.maps.InfoWindow({content:'LOTOS studio za negu tela, Dalmatinska 66, Beograd'});
+					
+						$('#lat').html(myLat);
+						$('#long').html(myLong);
+					}
+
+					function failure(){
+						$('#lat').html("<p>Ne radi, podaci nisu dostupni!</p>");
+						
+					}
+					</script>
+			</div>
+		 
+		 
+    
+        
+         </div>
+        
+         </div>
+	</aside>
+<div class="clear"></div>
+
+
+</section>
+<div class="clear"></div>
+
+<!-- footer-->
+<footer>
+	<ul class="social">
+		<li><a href="#"><img alt="facebook" src="images/icon-1.png"></a></li>
+      
+      <li><a href="#"><img alt="twitter" src="images/icon-3.png"></a></li>
+      <li><a href="#"><img alt="google+" src="images/icon-4.png"></a></li>
+	</ul>	
+</footer >
+<div class="clear"></div>
+    
+<footer class="second">
+<p><a href="autor.html">Sonja Damjanović 111/14</a> </p>
+</footer>
+
+
+</body>
+</html>
